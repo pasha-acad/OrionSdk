@@ -69,3 +69,9 @@ swis.query("SELECT NodeID from Orion.Nodes")
 
 ## reference
 https://github.com/solarwinds/orionsdk-python?tab=readme-ov-file#ssl-certificate-verification
+
+# commit fomrat
+
+"(num)-(tools)-(action)-(description) file.py"
+"01-orionSdk-development-(assign costum poller to node) .\assign_custom_poller_final.py"
+
