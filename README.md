@@ -65,3 +65,7 @@ swis = orionsdk.SwisClient(
     verify="server.pem",
     session=retry_session())
 swis.query("SELECT NodeID from Orion.Nodes")
+
+
+## reference
+https://github.com/solarwinds/orionsdk-python?tab=readme-ov-file#ssl-certificate-verification
